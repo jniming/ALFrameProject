@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseNavigationController.h
 //  ALFrameProject
 //
 //  Created by 张小明 on 2017/7/15.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
-@interface ViewController : BaseViewController
 
+@interface BaseNavigationController : UINavigationController
 
 @end
-

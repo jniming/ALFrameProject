@@ -1,0 +1,41 @@
+//
+//  ALCofig.pch
+//  ALFrameProject
+//
+//  Created by 张小明 on 2017/7/15.
+//  Copyright © 2017年 张小明. All rights reserved.
+//
+
+#ifndef ALConfig_pch
+#define ALConfig_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+//相关常用的库类导入
+//网络请求框架
+#import <AFNetworking.h>
+//上拉加载,下拉刷新框架爱
+#import <MJExtension.h>
+//图片加载框架
+#import <SDWebImage/UIImageView+WebCache.h>
+//autu布局框架
+#import <Masonry.h>
+//进度条弹窗框架
+#import <MBProgressHUD.h>
+
+
+//常量工具类
+#import "FinalUtil.h"
+#import "LogUtil.h"
+#import "ALUtil.h"
+
+
+
+//category 类
+#import "UIColor+AL.h"
+#import "UIImage+AL.h"
+
+#endif /* ALConfig_pch */
