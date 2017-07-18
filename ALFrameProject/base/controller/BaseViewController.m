@@ -51,7 +51,6 @@
 
 -(void)goNextController:(UIViewController *)controller{
     
-    
     [self.navigationController pushViewController:controller animated:YES];
     
     
